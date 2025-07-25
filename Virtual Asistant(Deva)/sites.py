@@ -1,0 +1,12 @@
+web={
+    "google":"https://google.com",
+    "youtube":"https://youtube.com",
+    "instagram":"https://instagram.com",
+    "chatgpt":"https://chatgpt.com",
+    "facebook":"https://facebook.com",
+    "whatsapp":"https://whatsapp.com",
+    "amazon":"https://amazon.com",
+    "cicbuzz":"https://cricbuzz.com",
+    "x":"https://x.com",
+    "wikipedia":"https://wikiwedia.com"
+}
