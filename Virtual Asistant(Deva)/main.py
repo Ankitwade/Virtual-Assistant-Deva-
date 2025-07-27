@@ -30,7 +30,7 @@ import platform # library for excessing external element
 
 
 #setup of API key, confugring and starting the chat of gemini
-GOOGLE_API_KEY="AIzaSyA5Q7DT0aJbZ2gj3lJpPB_UoGik-VlU-No"
+GOOGLE_API_KEY="<your API key>"
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
     gemini_model = genai.GenerativeModel('gemini-1.5-flash')
@@ -67,7 +67,7 @@ def save_wav(filename, data, fs):
 
 
 
-newsapi="b507843205444fb0ad27f99143c1f684"
+newsapi="<your API here>"
 #function for the various inputs we will give it to perform
 def processcommand(c):
     if "open" in c.lower():
